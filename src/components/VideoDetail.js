@@ -8,7 +8,7 @@ const VideoDetail =(props) => {
     return (
         <div className="ui segment">
         <div className="ui embed">
-        <iframe width="420" height="315"
+        <iframe title="video" width="420" height="315"
             src={`https://www.youtube.com/embed/${props.videoLink.id.videoId}`}>
         </iframe>
         </div>

@@ -28,7 +28,7 @@ class App extends React.Component {
     render(){
         return(
             <div className="ui container">
-                <div style={{textAlign:"center"}}><img style={{height: '50px',marginTop:'1rem',marginBottom: '-2rem'}} src="https://www.freeiconspng.com/thumbs/youtube-logo-png/hd-youtube-logo-png-transparent-background-20.png" />
+                <div style={{textAlign:"center"}}><img alt="imageclick" style={{height: '50px',marginTop:'1rem',marginBottom: '-2rem'}} src="https://www.freeiconspng.com/thumbs/youtube-logo-png/hd-youtube-logo-png-transparent-background-20.png" />
                 <h1>Youtube Search</h1>
                 <p>(Limited API Calls)</p>
                 </div>

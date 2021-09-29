@@ -17,7 +17,7 @@ const VideoCard = (props) => {
             
             <div style={{marginLeft:'1rem'}}>
 
-                <a >{(props.src.snippet.title.length > 70) ? `${props.src.snippet.title.substring(0,65)}...`: `${props.src.snippet.title}`}</a>
+                <a href="#">{(props.src.snippet.title.length > 70) ? `${props.src.snippet.title.substring(0,65)}...`: `${props.src.snippet.title}`}</a>
                 <div className="meta">
                 {/* <img src ={props.src.snippet.thumbnails.default.url} classNameName="ui image avatar"/> */}
                 <span className="date"></span>
